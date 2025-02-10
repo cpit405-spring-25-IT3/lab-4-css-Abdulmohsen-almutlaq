@@ -1,14 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 4</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Order Form</title>
 </head>
-
 <body>
+    <h1>Great Auto Parts - Order Form</h1>
+    <div id="content">
+        <form>
+            <label for="fname">First Name:</label>
+            <input id="fname" type="text" placeholder="Enter First Name">
 
+            <label for="lname">Last Name:</label>
+            <input id="lname" type="text" placeholder="Enter Last Name">
+
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Enter Email">
+
+            <label for="phone">Phone:</label>
+            <input id="phone" type="tel" placeholder="Enter Phone Number">
+
+            <label for="make">Make:</label>
+            <select id="make">
+                <option value="Toyota">Toyota</option>
+                <option value="Honda">Honda</option>
+                <option value="Ford">Ford</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Dodge">Dodge</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Kia">Kia</option>
+            </select>
+
+            <label for="model">Model:</label>
+            <select id="model">
+                <option value="Corolla">Corolla</option>
+                <option value="Accord">Accord</option>
+                <option value="F-150">F-150</option>
+                <option value="Altima">Altima</option>
+                <option value="Challenger">Challenger</option>
+                <option value="Elantra">Elantra</option>
+                <option value="Soul">Soul</option>
+            </select>
+
+            <label for="year">Year:</label>
+            <input id="year" type="text" placeholder="Year">
+
+            <label for="date">Date:</label>
+            <input id="date" type="date">
+
+            <label for="part">Spare Part:</label>
+            <input id="part" type="text" placeholder="Enter Spare Part">
+
+            <label for="quantity">Quantity:</label>
+            <input id="quantity" type="number" placeholder="Enter Quantity">
+
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" placeholder="Enter Comment" rows="5" cols="25"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
-
 </html>
